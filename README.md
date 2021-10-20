@@ -11,7 +11,6 @@ So in your case you can add the following style (which will hide elements with t
 </style>
 <body x-cloak x-data="{openModal: false}" :class="openModal ? 'overflow-hidden' : 'overflow-visible'">
 
- // button
   <button @click="openModal = true">
     Open Modal
   </button>
